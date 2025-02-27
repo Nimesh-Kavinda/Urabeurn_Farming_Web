@@ -40,6 +40,10 @@ body{
     font-weight: 800;
 }
 
+.headSection p{
+    font-size: 20px;
+}
+
 .image_box{
     background-color: #45474B;
     border-radius: 15px;
