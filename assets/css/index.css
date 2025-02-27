@@ -44,6 +44,25 @@ body{
     font-size: 20px;
 }
 
+.goalSection {
+    background-color: #F5F7F8;
+    box-shadow: 4px 4px 10px rgba(55, 151, 119, 0.5), 
+             -4px -4px 10px rgba(244, 206, 20, 0.5);
+}
+
+.goalSection .heading{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #379777;
+    font-weight: 700;
+}
+
+.goalSection p{
+    font-size: 20px;
+}
+
+
+
 .image_box{
     background-color: #45474B;
     border-radius: 15px;
