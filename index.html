@@ -13,7 +13,7 @@
 
     <section class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container back">
+            <div class="container-fluid back">
               <a class="navbar-brand back" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon back"></span>
@@ -33,11 +33,21 @@
                     <a class="nav-link back disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
-                <div class="back">
+
+                <!-- befor Login  -->
+
+                <div class="back align-center">
                 <button type="button" class="btn btn sign_in me-3">Sign In</button>
                 <button type="button" class="btn btn sign_up">Sign Up</button>
-                <span class="botton"><i class="bi bi-person fs-4"></i></span>
                 </div> 
+
+                <!-- After login  -->
+
+                <div class="back">
+                 <span class="button btn"><i class="bi bi-person fs-3 text-center text-white"> <span class="fs-5"> User Name</span></i></span>
+                <button type="button" class="btn btn sign_up">LogOut</button>
+                </div>
+                
               </div>
             </div>
           </nav>
