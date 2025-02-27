@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    margin: 0px 5px;
+    padding: 0px 20px;
+    border: green 1px solid;
+}
+
+.logo{
+    width: 60px;
+}
+
+.banner img{
+    height: 550px;
+}
