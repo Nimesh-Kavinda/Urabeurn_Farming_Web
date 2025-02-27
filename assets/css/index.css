@@ -1,8 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 *{
     box-sizing: border-box;
     margin:0;
-    padding: 0;
+    padding: 0;   
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #F5F7F8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.banner{
+    background-color: #45474B !important;
+}
+
+.headSection{
+   background-color: #F5F7F8;
+   box-shadow: 4px 4px 10px rgba(55, 151, 119, 0.5), 
+            -4px -4px 10px rgba(244, 206, 20, 0.5);
+}
+
+.headSection h1{
+    font-weight: 600;
+    color: #45474B;
+}
+
+.headSection .headding{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #379777;
+    font-weight: 700;
+}
+
+.headSection .country{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.image_box{
+    background-color: #45474B;
+    border-radius: 15px;
+    border-top: 8px solid #F4CE14;
+    border-bottom: 8px solid #F4CE14;
+    border-right: 10px solid #379777;
+    border-left: 10px solid #379777;
 }
 
 .banner img{
