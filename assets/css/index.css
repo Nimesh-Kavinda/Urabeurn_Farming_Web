@@ -2,12 +2,11 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    background-color: #F5F7F8;
 }
 
 nav{
-    margin: 0px 5px;
-    padding: 0px 20px;
-    border: green 1px solid;
+    padding: 0px 10px;
 }
 
 .logo{
@@ -16,5 +15,14 @@ nav{
 
 .banner img{
     height: 550px;
+}
+
+ .banner .carousel-caption p,
+ .banner .carousel-caption h5,
+ .banner .carousel-caption,
+ .banner .carousel-indicators,
+ .banner .carousel-control-prev-icon,
+ .banner .carousel-control-next-icon{
+    background: transparent;
 }
 
