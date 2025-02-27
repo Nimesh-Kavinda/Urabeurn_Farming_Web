@@ -131,8 +131,26 @@
           </div>
     </section>
 
+    <section class="videoSection">
+        <div class="containertext-center mt-3">
+            <div class="ratio ratio-16x9" onclick="playVideo()">
+                <video id="myVideo" class="w-100" controls>
+                    <source src="./assets/video/88c7dd32573f4557bf09ada3c162e907.HD-720p-4.5Mbps-24191244.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
 
-    <script></script>
+
+    <script>
+        function playVideo() {
+        var video = document.getElementById("myVideo");
+        if (video.paused) {
+            video.play();
+        }
+    }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
