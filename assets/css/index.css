@@ -5,36 +5,6 @@
     background-color: #F5F7F8;
 }
 
-nav{
-    padding: 0px 10px;
-    background-color: #379777;
-}
-
-nav .back{
-    background-color: #379777;
-    padding: 5px;
-}
-
-nav .navbar-brand{
-    color: #F4CE14 !important;
-    font-weight: 400;
-    font-size: 30px;
-}
-
-nav .nav-link{
-    color: #F5F7F8 !important;
-    font-size: 18px;
-}
-
-nav .nav-link.active{
-    font-weight: bold !important;
-    font-style: italic;
-}
-
-.logo{
-    width: 60px;
-}
-
 .banner img{
     height: 550px;
 }
