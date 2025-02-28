@@ -214,4 +214,11 @@ body{
     border-radius: 50%;
   }
 
+  .feedbackSection .feedback_heading{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #379777;
+    font-weight: 700;
+  }
+
 /* https://colorhunt.co/palette/f5f7f8f4ce1437977745474b */
