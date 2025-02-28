@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha384-2J6zRIh/Hd6YYXIs1P2QbTnDh56LaP2HaWoc/eL8P3bskvTLjljAedWY9biJJwqC" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
 
@@ -95,7 +96,7 @@
           </div>
     </section>
 
-    <section class="headSection mt-1 p-3">
+    <section class="headSection p-3">
         <div class="container">
             <div class="row">
               <div class="col-lg-8 col-sm-12">
@@ -112,14 +113,14 @@
           </div>
     </section>
 
-    <section class="goalSection mt-3 p-3">
+    <section class="goalSection p-3">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 image_box">
+                <div class="col-lg-4 col-sm-12 image_box d-none d-md-block">
                     <img class="img-fluid p-4" src="https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
                 </div>
                <div class="col-lg-8 col-sm-12 text-center">
-                <h1 class="fw-bold mt-3 heading">Our Misson</h1>
+                <h1 class="fw-bold mt-3 heading animate">Our Misson</h1>
                 <div class="description text-start ms-4 mt-4">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, fugit. Nihil autem eius exercitationem, ducimus vel asperiores iste ex non.</p>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, fugit. Nihil autem eius exercitationem, ducimus vel asperiores iste ex non.</p>
@@ -131,8 +132,9 @@
           </div>
     </section>
 
-    <section class="videoSection">
-        <div class="containertext-center mt-3">
+    <section class="videoSection d-none d-md-block">
+      <h1 class="text-center video_heading animate_1">Explore Our Vison</h1>
+        <div class="container text-center mt-3">
             <div class="ratio ratio-16x9" onclick="playVideo()">
                 <video id="myVideo" class="w-100" controls>
                     <source src="./assets/video/88c7dd32573f4557bf09ada3c162e907.HD-720p-4.5Mbps-24191244.mp4" type="video/mp4">
@@ -142,15 +144,7 @@
         </div>
     </section>
 
-
-    <script>
-        function playVideo() {
-        var video = document.getElementById("myVideo");
-        if (video.paused) {
-            video.play();
-        }
-    }
-    </script>
+    <script src="./assets/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

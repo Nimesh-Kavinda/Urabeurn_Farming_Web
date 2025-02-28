@@ -32,8 +32,8 @@ body{
 
 .headSection{
    background-color: #F5F7F8;
-   box-shadow: 4px 4px 10px rgba(55, 151, 119, 0.5), 
-            -4px -4px 10px rgba(244, 206, 20, 0.5);
+   /* box-shadow: 4px 4px 10px rgba(55, 151, 119, 0.5), 
+            -4px -4px 10px rgba(244, 206, 20, 0.5); */
 }
 
 .headSection h1{
@@ -59,8 +59,8 @@ body{
 
 .goalSection {
     background-color: #F5F7F8;
-    box-shadow: 4px 4px 10px rgba(55, 151, 119, 0.5), 
-             -4px -4px 10px rgba(244, 206, 20, 0.5);
+    /* box-shadow: 4px 4px 10px rgba(55, 151, 119, 0.5), 
+             -4px -4px 10px rgba(244, 206, 20, 0.5); */
 }
 
 .goalSection .heading{
@@ -77,10 +77,10 @@ body{
 .image_box{
     background-color: #45474B;
     border-radius: 15px;
-    border-top: 8px solid #F4CE14;
-    border-bottom: 8px solid #F4CE14;
-    border-right: 10px solid #379777;
-    border-left: 10px solid #379777;
+    border-top: 5px solid #F4CE14;
+    border-bottom: 5px solid #F4CE14;
+    border-right: 6px solid #379777;
+    border-left: 6px solid #379777;
 }
 
 .videoSection{
@@ -88,6 +88,13 @@ body{
     height: 100vh;
     margin: 0 auto;
     padding: 50px;
+}
+
+.videoSection .video_heading{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #379777;
+    font-weight: 700;
 }
 
 
