@@ -36,13 +36,13 @@ headings.forEach(heading => {
 const headings_video = document.querySelectorAll(".animate_1");
 
 headings_video.forEach(heading => {
-    // Wrap each letter in a <span>
+
     heading.innerHTML = heading.textContent
         .split("")
         .map(letter => `<span>${letter}</span>`)
         .join("");
 
-    // Create animation timeline for each heading
+  
     const tl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
 
     tl.fromTo(heading.querySelectorAll("span"), 
@@ -60,8 +60,8 @@ headings_video.forEach(heading => {
             color: "hsl(165, 48%, 42%)",
             duration: 1,
             stagger: {
-                amount: 1, // Total time for all letters
-                from: "random" // Random letter animation order
+                amount: 1, 
+                from: "random" 
             },
             ease: "elastic.out(1, 0.5)"
         }
