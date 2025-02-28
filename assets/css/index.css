@@ -115,11 +115,10 @@ body{
     margin-bottom:15px
   }
   h1.heading {
-    color: #fff;
-    font-size: 1.15em;
-    font-weight: 900;
-    margin: 0 0 0.5em;
-    color: #505050;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #379777;
+    font-weight: 700;
   }
   @media (min-width: 450px) {
     h1.heading {
@@ -147,7 +146,9 @@ body{
       transition: box-shadow .25s; 
   }
   .card:hover {
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 17px 0 rgba(55, 151, 119, 0.4), 
+    0 6px 20px 0 rgba(55, 151, 119, 0.3);
+
   }
   .img-card {
     width: 100%;
@@ -173,19 +174,44 @@ body{
     font-size: 1.65em;
   }
   .card-title a {
-    color: #000;
+    color: #45474B;
     text-decoration: none !important;
   }
+
+  .card-title a:hover{
+    color: #379777 !important;
+  }
+
   .card-read-more {
     border-top: 1px solid #D4D4D4;
   }
   .card-read-more a {
     text-decoration: none !important;
     padding:10px;
-    font-weight:600;
+    font-weight:700;
+    color: #379777;
     text-transform: uppercase
   }
 
+  .card-read-more a:hover{
+    color: #45474B;
+    font-size: 18px;
+  }
 
+  /* Feedback */
+
+  .testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
 
 /* https://colorhunt.co/palette/f5f7f8f4ce1437977745474b */
