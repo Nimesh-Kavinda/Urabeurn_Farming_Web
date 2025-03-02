@@ -92,6 +92,12 @@ body{
     font-size: 20px;
 }
 
+.goalSection p .startingWord{
+  color: #45474B;
+  font-weight: 700;
+  font-size: 24px;
+}
+
 .image_box{
     height: 90%;
     margin-top: 40px;
@@ -102,6 +108,11 @@ body{
     border-bottom: 5px solid #F4CE14;
     border-right: 6px solid #379777;
     border-left: 6px solid #379777; */
+}
+
+.feedbackSection .subdescription{
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .videoSection{
