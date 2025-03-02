@@ -1,0 +1,81 @@
+body {
+    background-color: #F5F7F8;
+    color: #45474B;
+}
+.about-header {
+    background: url(../img//tim-mossholder-xDwEa2kaeJA-unsplash_cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-header h1{
+    color: #45474B;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: s;
+}
+
+.about-header p{
+    color: #F4CE14;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about-header p span{
+    color: #45474B;
+}
+
+.imageSection .header{
+    color: #379777;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.imageSection hr{
+    color: #45474B;
+}
+
+.imageSection p {
+    color: #45474B;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.valueSection .header{
+    color: #45474B;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.valueSection .card_header{
+    font-style: italic;
+    font-weight: 700;
+    background: linear-gradient(to right, rgba(244, 206, 20, 0.6), rgba(244, 206, 20, 0.3));
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.mapSection .header{
+    color: #379777;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #379777;
+}
+
+.section {
+    padding: 60px 20px;
+}
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
