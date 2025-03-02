@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;   
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F5F7F8;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contact-header {
+    background: url(../img/cameron-witney-xEZaZ577Q-Q-unsplash_contact_cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hedarSection h1{
+    font-weight: 800;
+    color: #F5F7F8;
+    font-style: italic;
+}
+
+.hedarSection p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contactSection .header{
+    color:#379777;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contactSection p{
+    color: #45474B;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.contact-section {
+    padding: 60px 20px;
+}
+.form-control, .btn {
+    border-radius: 8px;
+}

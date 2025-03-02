@@ -1,6 +1,8 @@
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #F5F7F8;
-    color: #45474B;
+    text-decoration: none;
+    font-size: 14px;
 }
 .about-header {
     background: url(../img//tim-mossholder-xDwEa2kaeJA-unsplash_cover.jpg);
