@@ -7,55 +7,7 @@
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(https://plus.unsplash.com/premium_photo-1664475338591-24984ee3c83f?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
+    background: url(https://plus.unsplash.com/premium_photo-1664475338591-24984ee3c83f?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) !important;
+    background-size:contain;
     background-repeat: no-repeat;
-    text-decoration: none;
-    font-size: 14px;
 }
-
-.main{
-    border-radius: 20px;
-    border: none;
-    opacity: 30%;
-}
-
-.picture {
-    background: url(../img/signin.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 80%;
-}
-
-
-/* .btn-primary {
-    background-color: #F4CE14;
-    color: #45474B;
-}
-.btn-primary:hover {
-    background-color: #379777;
-}
-.btn-outline-danger {
-    border-color: #379777;
-    color: #379777;
-}
-.btn-outline-danger:hover {
-    background-color: #379777;
-    color: white;
-}
-.form-label {
-    color: #45474B;
-}
-.card-body {
-    background-color: #FFFFFF;
-}
-.gradient-custom-2 {
-    background: #379777;
-}
-.text-muted {
-    color: #45474B;
-}
-.footer-link {
-    color: #379777;
-} */
